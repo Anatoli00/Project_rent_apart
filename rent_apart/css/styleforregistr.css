@@ -1,0 +1,75 @@
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container1 {
+  padding: 10px;
+
+}
+.container1  p{
+
+  text-align: center;
+  font-weight: bold;
+
+}
+.container1  p a{
+  color: #e01533;
+  font-weight: bold;
+
+}
+
+.notReg1{
+  width: 40%;
+  height: 600px;
+  padding-top: 100px;
+  margin-left: 30%;
+
+}
+
+
+/* Full-width input fields */
+input[type=text1], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid #e01533;
+  border-radius: 20px;
+  background: #fff;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+  .registerbtn  {
+  border: 3px solid #e01533;
+  border-radius: 20px;
+
+  background-color: #e01533;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-weight: bold;
+
+}
+
+
+ .registerbtn:hover  {
+	font-weight: bold;
+  border: 3px solid #e01533;
+  border-radius: 20px;
+  background: #fff;
+  color:   #e01533;
+}

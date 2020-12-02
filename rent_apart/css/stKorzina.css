@@ -1,0 +1,134 @@
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+
+.notReg2{
+  width: 50%;
+  margin-right: 25%;
+  margin-top: 150px;
+  height: 1000px;
+  float: right;
+
+
+}
+.container1 {
+  padding: 10px;
+
+}
+.container1  p{
+
+  text-align: center;
+  font-weight: bold;
+
+}
+.container1  p a{
+  color: #e01533;
+  font-weight: bold;
+
+}
+
+
+form .container1{
+  width: 95%;
+  height: 100%;
+margin-left: 5%;
+
+  float: left;
+}
+
+
+
+/* Full-width input fields */
+
+input[type=text1] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 3px solid #e01533;
+  border-radius: 20px;
+  background: #fff;
+}
+input[type=text2] {
+  width: 32.8%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 3px solid #e01533;
+  border-radius: 20px;
+  background: #fff;
+}
+input[type=text1]:focus, input[type=text2]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+  .registerbtn  {
+  border: 3px solid #e01533;
+  border-radius: 20px;
+
+  background-color: #e01533;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-weight: bold;
+
+}
+
+
+ .registerbtn:hover  {
+	font-weight: bold;
+  border: 3px solid #e01533;
+  border-radius: 20px;
+  background: #fff;
+  color:   #e01533;
+}
+
+
+
+
+.BasketInfo{
+  margin-top: 100px;
+  margin-right: 3%;
+  width: 45%;
+  display:block;
+  height: 92.55%;
+  float: right;
+  border-left: 1px solid silver;
+
+}
+
+.basket{
+  width: 100%;
+  height: 71%;
+  float: left;
+}
+.basket h3{
+  font-size: 25px;
+  margin-left: 2%;
+}
+.products{
+  width: 90%;
+  margin-left: 5%;
+  height: 75%;
+  background-color: #fafafa;
+}
+.Sum{
+  border-top: 1px solid silver;
+  width: 100%;
+  height: 20%;
+  float: left;
+  margin-left: 4%;
+}

@@ -1,0 +1,496 @@
+.images img {display: none}
+.images .active {display: block}
+
+/*720x980*/
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+	/* background-image: url(imgmain.png); */
+	background-color: #fff;
+}
+
+.mainBlockGallery{
+padding-top: 150px;
+width: 82%;
+margin-left: 8%;
+height: 1000px;
+
+float: left;
+
+/* background-color: #fff;  */
+
+}
+
+.BlockForGallery {
+  width: 50%;
+  height: 80%;
+  float: left;
+
+}
+
+.thumbs{
+width: 100%;
+height: 27%;
+
+/* background-color: green; /**************************************************************************/ */
+}
+.thumbs .show-image{
+  margin-right: 6px;
+  margin-bottom: 6px;
+
+}
+.show-image img {
+
+	width: 31.74%;
+	height: 100%;
+	/* width: 196px ;
+	height: 250px; */
+}
+.thumbs .show-image:last-child{
+   margin-right:0px;
+}
+
+.images{
+  margin-top: 6px;
+  height: 73%;
+	width: 98.6%;
+
+}
+.images img{
+	width: 100%;
+  height: 100%;
+
+
+	/* width: 610px;
+  height: 750px; */
+}
+
+
+.BlockForInfo{
+  width: 49%;
+  height: 100.6%;
+  float: left;
+  border: 1px solid silver;
+}
+
+.ForInfo{
+background-color: #fff;
+/* height: 200px; */
+height: 18%;
+width: 100%;
+float: left;
+border-bottom: 1px solid silver;
+}
+
+.color {
+  /* height: 150px; */
+	height: 15%;
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  border-bottom: 1px solid silver;
+}
+.colorBox{
+  width:80%;
+  margin-left: 20%;
+}
+
+.color .box1, .box2, .box3, .box4, .box5{
+  height: 45px;
+  width: 45px;
+  float: left;
+  margin-left: 18px;
+  border: 1px solid silver;
+
+}
+.box1{
+  background-color: black;
+}
+.box2{
+  background-color: #a83240;
+}
+.box3{
+  background-color: #e8e8e8;
+}
+.box4{
+  background-color: #c43bc2;
+}
+.box5{
+  background-color: #147c9c;
+}
+
+.sizeForGallery{
+  /* height: 150px; */
+		height: 15%;
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  border-bottom: 1px solid silver;
+}
+
+.sizeForGallery .box{
+  text-align: center;
+  background-color: #fff;
+  height: 45px;
+  width: 45px;
+  float: left;
+  margin-left: 10px;
+  border: 1px solid silver;
+
+}
+
+.sizeBox{
+  width: 80%;
+  margin-left: 19%;
+
+}
+ .box p{
+	text-align: center;
+	align-items:center;
+	justify-content: center;
+
+}
+ .box p a{
+	 text-decoration: none;
+ 	color: #e01533;
+	font-weight: bold;
+	font-size: 13px;
+ }
+
+.TableForSize{
+  /* height: 200px; */
+	height: 18%;
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  border-bottom: 1px solid silver;
+}
+
+
+.AnotherInfo{
+  height: 22%;
+  width: 100%;
+  float: left;
+	font-size: 12px ;
+  text-align: center;
+  color: #e01533;
+}
+.characteristics{
+  height: 12%;
+  width: 100%;
+  float: left;
+	font-size: 12px ;
+  color: #e01533;
+  padding: 0;
+  margin: 0;
+	margin-left: 2%;
+}
+
+
+
+
+
+
+.ForInfo h3{
+  font-size: 40px ;
+  text-align: center;
+  color: #e01533;
+}
+.ForInfo h4 {
+  margin-top: 30px;
+  font-size: 25px ;
+  text-align: center;
+  color: #e01533;
+}
+.color h3{
+  font-size: 12px ;
+  text-align: center;
+  color: #e01533;
+}
+.sizeForGallery{
+  font-size: 12px ;
+  text-align: center;
+  color: #e01533;
+}
+
+.TableForSize a{
+  color: #e01533;
+}
+
+.TableForSize h3{
+  font-size: 12px ;
+  text-align: center;
+  color: #e01533;
+}
+.TableForSize h3 a button {
+  font-size: 16px ;
+  text-align: center;
+  color: #fff;
+  background-color: #e01533;
+  height: 50px;
+  width: 150px;
+border: none;
+}
+
+
+
+
+
+
+
+/*====================Style for size galleryblock======================*/
+@media (max-width: 920px) {
+.BlockForGallery{
+		width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+.BlockForGallery{
+		width: 100%;
+		margin-top: -20%;
+  }
+}
+@media (max-width: 1300px) {
+.thumbs{
+		height: 24%;
+  }
+}
+@media (max-width: 1000px) {
+.thumbs{
+		height: 20%;
+  }
+}
+@media (max-width: 920px) {
+.thumbs{
+			height: 27%;
+  }
+}
+@media (max-width: 700px) {
+.thumbs{
+			height: 25%;
+  }
+}
+@media (max-width: 500px) {
+.show-image img {
+
+	width: 30.46%;
+  }
+}
+
+@media (max-width: 500px) {
+.thumbs{
+			height: 16%;
+  }
+}
+@media (max-width: 500px) {
+.images{
+			height: 45%;
+  }
+}
+/*====================Style for size galleryblockInfo======================*/
+
+
+
+@media (max-width: 920px) {
+ .BlockForInfo{
+		width: 98%;
+  }
+}
+@media (max-width: 1000px) {
+ .ForInfo h3 {
+	font-size: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+ .ForInfo h4 {
+	font-size: 15px;
+  }
+}
+
+@media (max-width: 920px) {
+ .ForInfo h3, .ForInfo h4{
+	text-align: left;
+	margin: 0;
+	margin-left: 2%;
+  }
+}
+
+@media (max-width: 920px) {
+ .ForInfo h4{
+	text-align: left;
+	margin-top: 4%;
+  }
+}
+@media (max-width: 500px) {
+ .ForInfo h3{
+
+	font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+ .BlockForInfo{
+		margin-top: -120%;
+  }
+}
+@media (max-width: 500px) {
+ .ForInfo h4{
+
+	font-size: 15px;
+  }
+}
+/*====================Style for Color======================*/
+
+
+	@media (max-width: 1200px) {
+		.colorBox{
+margin-left: 10%;
+	  }
+	}
+
+@media (max-width: 1200px) {
+	.color .box1, .box2, .box3, .box4, .box5{
+    height: 40px;
+    width: 40px;
+border: 2px solid silver;
+  }
+}
+
+@media (max-width: 920px) {
+	.color h3{
+		text-align: left;
+
+		margin-left: 2%;
+
+  }
+}
+
+@media (max-width: 780px) {
+	.color .box1, .box2, .box3, .box4, .box5{
+    height: 35px;
+    width: 35px;
+border: 2px solid silver;
+  }
+}
+@media (max-width: 700px) {
+	.color .box1, .box2, .box3, .box4, .box5{
+    height: 30px;
+    width: 30px;
+
+  }
+}
+@media (max-width: 500px) {
+	.color .box1, .box2, .box3, .box4, .box5{
+    height: 30px;
+    width: 30px;
+border: 1px solid silver;
+
+  }
+}
+/*====================Style for Size======================*/
+@media (max-width: 1200px) {
+	.sizeForGallery .box{
+    height: 39px;
+    width: 39px;
+		margin-left: 5px;
+		border: 2px solid silver;
+
+  }
+}
+@media (max-width: 1000px) {
+	.sizeForGallery .box{
+    height: 37px;
+    width: 37px;
+		margin-left: 5px;
+		border: 2px solid silver;
+
+  }
+}
+
+@media (max-width: 920px) {
+	.sizeForGallery h3{
+		text-align: left;
+
+		margin-left: 2%;
+
+  }
+}
+
+@media (max-width: 780px) {
+	.sizeForGallery .box{
+    height: 35px;
+    width: 35px;
+		border: 2px solid silver;
+
+  }
+}
+@media (max-width: 700px) {
+		.sizeForGallery .box{
+    height: 30px;
+    width: 30px;
+
+  }
+}
+@media (max-width: 700px) {
+		.sizeForGallery .box{
+    height: 30px;
+    width: 30px;
+
+  }
+}
+@media (max-width: 500px) {
+	.sizeForGallery .box{
+    height: 28px;
+    width: 28px;
+border: 1px solid silver;
+
+  }
+}
+
+@media (max-width: 920px) {
+	.sizeBox{
+    margin-left: 0;
+
+  }
+}
+
+/*====================Style for TableForSize======================*/
+@media (max-width: 920px) {
+	.TableForSize a, .TableForSize  h3{
+		text-align: left;
+
+		margin-left: 1%;
+
+  }
+}
+
+/*====================Style for AnotherInfo======================*/
+@media (max-width: 1000px) {
+	.AnotherInfo, .characteristics{
+		margin: 0;
+		text-align: left;
+    font-size: 12px;
+		margin-left: 2%;
+
+  }
+}
+@media (max-width: 920px) {
+	.AnotherInfo, .characteristics  {
+		text-align: left;
+
+		margin-left: 2%;
+
+  }
+}
+@media (max-width: 500px) {
+	.AnotherInfo, .characteristics{
+		margin: 0;
+		text-align: left;
+    font-size: 12px;
+		margin-left: 2%;
+
+  }
+}
